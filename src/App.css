@@ -1,0 +1,149 @@
+:root {
+  --gray-text: #4b4949;
+  --acumni-normal: 400;
+  --acumni-bold: 700;
+  --nav-active: #ff6f00;
+}
+
+.App {
+  font-family: acumin-pro, sans-serif;
+  height: auto;
+
+  /* position: relative; */
+}
+
+/* NAV */
+.menu-button {
+  color: white;
+}
+.menu-icon {
+  z-index: 20;
+  position: fixed;
+  right: 0.8em;
+  top: 0.8em;
+  font-size: 1.6rem;
+  display: none;
+}
+
+.orange {
+  color: rgba(255, 111, 0, 0.7);
+}
+
+.menu-button:hover {
+  color: var(--nav-active);
+  transition: color 200ms ease-in;
+  cursor: pointer;
+}
+
+.nav {
+  position: fixed;
+  display: grid;
+  grid-template-columns: 0.6fr 8fr 0.6fr;
+  width: 100%;
+  top: 2em;
+  z-index: 10;
+  color: white;
+}
+
+.nav-container {
+  grid-column-start: 2;
+  display: flex;
+  text-transform: uppercase;
+}
+
+.nav-container .logo {
+  font-weight: var(--acumni-bold);
+  font-size: 1.4em;
+  letter-spacing: 0.3em;
+  transition: color 200ms ease-in;
+}
+
+.nav-container .logo:hover {
+  cursor: pointer;
+  color: var(--nav-active);
+  transition: color 200ms ease-in;
+}
+
+.nav-container .location {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.location span {
+  font-size: 1.1em;
+  margin-left: 3em;
+  font-weight: var(--acumni-normal);
+  transition: color 200ms ease-in;
+}
+
+.location span:hover {
+  color: var(--nav-active);
+  transition: color 200ms ease-in;
+  cursor: pointer;
+}
+
+@media (max-width: 900px) {
+  .menu-icon {
+    display: block;
+  }
+
+  .nav-container .logo {
+    display: none;
+  }
+
+  .nav {
+    height: 100%;
+    top: 0;
+    background: #0066a6;
+    opacity: 1;
+    transition: opacity 200ms ease-in;
+  }
+
+  .nav-hidden {
+    visibility: hidden;
+    opacity: 0;
+  }
+
+  .nav-container {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    width: 100%;
+    height: 100%;
+  }
+
+  .nav-container .location {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .nav-container .location span {
+    margin-top: 2.5rem;
+  }
+}
+
+/* SOCIAL */
+.social-media {
+  position: fixed;
+  height: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  right: 15px;
+  z-index: 10;
+}
+
+.social-media .social-icon {
+  font-size: 2.1rem;
+  margin-bottom: 0.8em;
+}
+
+.social-media .social-icon:hover {
+  color: var(--nav-active);
+  transition: color 250ms ease;
+  cursor: pointer;
+}
