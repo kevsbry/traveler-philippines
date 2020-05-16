@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/traveler-philippines/static/css/main.1e3c3f6c.chunk.css",
+    "main.js": "/traveler-philippines/static/js/main.c3115b90.chunk.js",
+    "main.js.map": "/traveler-philippines/static/js/main.c3115b90.chunk.js.map",
+    "runtime-main.js": "/traveler-philippines/static/js/runtime-main.8ea4fd11.js",
+    "runtime-main.js.map": "/traveler-philippines/static/js/runtime-main.8ea4fd11.js.map",
+    "static/js/2.bfc3dad3.chunk.js": "/traveler-philippines/static/js/2.bfc3dad3.chunk.js",
+    "static/js/2.bfc3dad3.chunk.js.map": "/traveler-philippines/static/js/2.bfc3dad3.chunk.js.map",
+    "index.html": "/traveler-philippines/index.html",
+    "precache-manifest.797829770aa1f9055c5a3ac51add7eb8.js": "/traveler-philippines/precache-manifest.797829770aa1f9055c5a3ac51add7eb8.js",
+    "service-worker.js": "/traveler-philippines/service-worker.js",
+    "static/css/main.1e3c3f6c.chunk.css.map": "/traveler-philippines/static/css/main.1e3c3f6c.chunk.css.map",
+    "static/js/2.bfc3dad3.chunk.js.LICENSE.txt": "/traveler-philippines/static/js/2.bfc3dad3.chunk.js.LICENSE.txt",
+    "static/media/explore.jpg": "/traveler-philippines/static/media/explore.b648a978.jpg",
+    "static/media/explore1.jpg": "/traveler-philippines/static/media/explore1.eb9be950.jpg",
+    "static/media/food.jpg": "/traveler-philippines/static/media/food.f3fe1653.jpg",
+    "static/media/food1.jpg": "/traveler-philippines/static/media/food1.88c73a9e.jpg",
+    "static/media/style.module.css": "/traveler-philippines/static/media/home.c907b176.jpg",
+    "static/media/testimony.jpg": "/traveler-philippines/static/media/testimony.7fd76869.jpg",
+    "static/media/testimony2.jpg": "/traveler-philippines/static/media/testimony2.7985fd93.jpg",
+    "static/media/testimony4.jpg": "/traveler-philippines/static/media/testimony4.58956ea1.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8ea4fd11.js",
+    "static/js/2.bfc3dad3.chunk.js",
+    "static/css/main.1e3c3f6c.chunk.css",
+    "static/js/main.c3115b90.chunk.js"
+  ]
+}
